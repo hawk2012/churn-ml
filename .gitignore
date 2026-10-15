@@ -1,0 +1,26 @@
+# Виртуальное окружение
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Данные и артефакты моделей (воспроизводятся пайплайном)
+data/raw/*.csv
+data/processed/*.csv
+models/*.joblib
+
+# Отчёты и логи
+reports/*.log
+reports/*.txt
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/

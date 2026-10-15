@@ -1,0 +1,76 @@
+{
+  "highest_risk": {
+    "customerID": "5178-LMXOP",
+    "churn_probability": 0.9549,
+    "base_value_logit": -0.097,
+    "top_factors": [
+      {
+        "feature": "charge_tenure_ratio",
+        "value": 4.8160714993974,
+        "shap": 1.0311274528503418
+      },
+      {
+        "feature": "Contract_Month-to-month",
+        "value": 1.0,
+        "shap": 0.3414689004421234
+      },
+      {
+        "feature": "tenure",
+        "value": -1.2816237461508113,
+        "shap": 0.26399970054626465
+      },
+      {
+        "feature": "InternetService_Fiber optic",
+        "value": 1.0,
+        "shap": 0.20094621181488037
+      },
+      {
+        "feature": "OnlineSecurity_No",
+        "value": 1.0,
+        "shap": 0.18803974986076355
+      },
+      {
+        "feature": "PaymentMethod_Electronic check",
+        "value": 1.0,
+        "shap": 0.17465783655643463
+      }
+    ]
+  },
+  "lowest_risk": {
+    "customerID": "4277-BWBML",
+    "churn_probability": 0.0137,
+    "base_value_logit": -0.097,
+    "top_factors": [
+      {
+        "feature": "charge_tenure_ratio",
+        "value": -0.6282752743300939,
+        "shap": -0.8333542943000793
+      },
+      {
+        "feature": "Contract_Month-to-month",
+        "value": 0.0,
+        "shap": -0.6272607445716858
+      },
+      {
+        "feature": "Contract_Two year",
+        "value": 1.0,
+        "shap": -0.5701906085014343
+      },
+      {
+        "feature": "tenure",
+        "value": 1.6084834273893616,
+        "shap": -0.5534046292304993
+      },
+      {
+        "feature": "OnlineSecurity_No",
+        "value": 0.0,
+        "shap": -0.30286654829978943
+      },
+      {
+        "feature": "TechSupport_No",
+        "value": 0.0,
+        "shap": -0.23467715084552765
+      }
+    ]
+  }
+}
